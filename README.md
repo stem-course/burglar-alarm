@@ -1,2 +1,2 @@
-# burgler-alarm
-Code for burgler alarm project.
+# burglar-alarm
+Code for burglar alarm project.
