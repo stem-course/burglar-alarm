@@ -28,7 +28,7 @@ void setup() {
 
 void loop() {
   int input = analogRead(ldr);    //Take input
-  Serial.println(input);          //Send input to computer for display
+  Serial.println(input);          //Show input on Serial monitor
   if (input > 200) {
     digitalWrite(buzzer, HIGH);     //If there is shadow, turn on Buzzer
     delay(2000);                    //wait
